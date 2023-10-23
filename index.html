@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: black;
+        position: absolute;
+        height: 100vh;
+      }
+      button {
+        background-color: transparent;
+        font-size: 5rem;
+      }
+      input {
+        font-size: 5rem;
+        width: 20vw;
+      }
+      .wrap {
+        position: relative;
+        display: flex;
+        top: 50%;
+        left: 75%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <input type="number" id="timer_duration" value="30" />
+      <button id="timer_start">🟢</button>
+      <button id="timer_pause">🔴</button>
+      <button id="timer_reset">🫨</button>
+    </div>
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
